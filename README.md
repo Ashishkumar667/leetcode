@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Ashishkumar667/leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0904-fruit-into-baskets](https://github.com/Ashishkumar667/leetcode/tree/master/0904-fruit-into-baskets) |
 ## Linked List
 |  |
 | ------- |
@@ -44,4 +45,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1021-remove-outermost-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/1021-remove-outermost-parentheses) |
+## Array
+|  |
+| ------- |
+| [0904-fruit-into-baskets](https://github.com/Ashishkumar667/leetcode/tree/master/0904-fruit-into-baskets) |
+## Sliding Window
+|  |
+| ------- |
+| [0904-fruit-into-baskets](https://github.com/Ashishkumar667/leetcode/tree/master/0904-fruit-into-baskets) |
 <!---LeetCode Topics End-->
