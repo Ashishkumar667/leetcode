@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Ashishkumar667/leetcode/tree/master/0053-maximum-subarray) |
 | [0904-fruit-into-baskets](https://github.com/Ashishkumar667/leetcode/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Ashishkumar667/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Ashishkumar667/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -71,4 +72,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Ashishkumar667/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Ashishkumar667/leetcode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Ashishkumar667/leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
