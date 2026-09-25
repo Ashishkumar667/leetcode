@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/Ashishkumar667/leetcode/tree/master/0234-palindrome-linked-list) |
 | [1021-remove-outermost-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Ashishkumar667/leetcode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Recursion
 |  |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -90,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Ashishkumar667/leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ashishkumar667/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Simulation
+|  |
+| ------- |
+| [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
