@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Ashishkumar667/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ashishkumar667/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Ashishkumar667/leetcode/tree/master/0496-next-greater-element-i) |
+| [0735-asteroid-collision](https://github.com/Ashishkumar667/leetcode/tree/master/0735-asteroid-collision) |
 | [1021-remove-outermost-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Ashishkumar667/leetcode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Ashishkumar667/leetcode/tree/master/0134-gas-station) |
 | [0283-move-zeroes](https://github.com/Ashishkumar667/leetcode/tree/master/0283-move-zeroes) |
 | [0496-next-greater-element-i](https://github.com/Ashishkumar667/leetcode/tree/master/0496-next-greater-element-i) |
+| [0735-asteroid-collision](https://github.com/Ashishkumar667/leetcode/tree/master/0735-asteroid-collision) |
 | [0904-fruit-into-baskets](https://github.com/Ashishkumar667/leetcode/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Ashishkumar667/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Ashishkumar667/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Ashishkumar667/leetcode/tree/master/0735-asteroid-collision) |
 | [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Design
 |  |
