@@ -1,37 +1,63 @@
 class Solution {
 public:
-    int sumSubarrayMins(vector<int>& arr) {
-        int n = arr.size();
-        const int MOD = 1e9 + 7;
 
-        stack<int> st;
-        long long ans = 0;
+    vector<int>getNSL(vector<int>& arr, int n){
+        vector<int>result(n);
+        stack<int>st;
 
-        for (int i = 0; i <= n; i++) {
-            while (!st.empty() &&
-                   (i == n || arr[st.top()] >= arr[i])) {
-
-                int mid = st.top();
-                st.pop();
-
-                int left = st.empty() ? -1 : st.top();
-                int right = i;
-
-                long long leftCount = mid - left;
-                long long rightCount = right - mid;
-
-                long long contribution =
-                    (1LL * arr[mid] * leftCount % MOD)
-                    * rightCount % MOD;
-
-                ans = (ans + contribution) % MOD;
+        for(int i = 0; i<n; i++){
+            if(st.empty()){
+                result[i] = -1;
+            }else{
+                while(!st.empty() && arr[st.top()] >= arr[i]){
+                    st.pop();
+                }
+                result[i] = st.empty() ? -1 : st.top();
+                
             }
 
-            if (i < n) {
-                st.push(i);
-            }
+            st.push(i);
         }
+        return result; 
+    }
 
-        return ans;
+    vector<int>getNSR(vector<int>& arr, int n){
+        vector<int>result(n);
+        stack<int>st;
+
+        for(int i = n - 1; i>= 0; i--){
+            if(st.empty()){
+                result[i] = n;
+            }else{
+                while(!st.empty() && arr[st.top()] > arr[i]){
+                    st.pop();
+                }    
+                 result[i] = st.empty() ? n : st.top();
+                
+            }
+
+            st.push(i);
+        }
+        return result; 
+    }
+
+    int sumSubarrayMins(vector<int>& arr) {
+        int n =  arr.size();
+        vector<int> NSL = getNSL(arr,n);
+        vector<int> NSR = getNSR(arr,n);
+
+        long long sum = 0;
+        int M = 1e9+7;
+
+        for(int i = 0; i < n; i++){
+            long long leftE = i - NSL[i];
+            long long rightE = NSR[i] - i;
+
+            long long totalWays = leftE * rightE;
+            long long totalSum = arr[i] * totalWays;
+
+            sum = (sum+totalSum)%M;
+        }
+        return sum;
     }
 };
