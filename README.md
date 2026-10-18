@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/Ashishkumar667/leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Ashishkumar667/leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Ashishkumar667/leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ashishkumar667/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Ashishkumar667/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0394-decode-string](https://github.com/Ashishkumar667/leetcode/tree/master/0394-decode-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Ashishkumar667/leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Ashishkumar667/leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2390-removing-stars-from-a-string](https://github.com/Ashishkumar667/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Bracket Sequences
 |  |
