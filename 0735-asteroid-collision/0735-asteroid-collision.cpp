@@ -3,25 +3,20 @@ public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
         vector<int>st;
 
-        for(int i = 0; i<asteroids.size(); i++){
-
-            bool destroyed = false;
-
-            while(!st.empty() && st.back() > 0 && asteroids[i] < 0){
-                if(abs(st.back()) < abs(asteroids[i])){
+        for(int i = 0; i < asteroids.size(); i++){
+            while(!st.empty() && asteroids[i]<0 && st.back() > 0 ){
+                int sum = asteroids[i]  + st.back();
+                if(sum < 0){
                     st.pop_back();
                 }
-
-                else if(abs(st.back()) == abs(asteroids[i])){
+                if(sum>0){
+                    asteroids[i] = 0;
+                }else if(sum == 0){
                     st.pop_back();
-                    destroyed = true;
-                    break;
-                }else{
-                    destroyed = true;
-                    break;
+                    asteroids[i] = 0;
                 }
             }
-            if (!destroyed) {
+            if(asteroids[i] != 0){
                 st.push_back(asteroids[i]);
             }
         }
